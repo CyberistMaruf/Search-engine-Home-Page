@@ -1,0 +1,109 @@
+*{
+    font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  
+}
+body{
+    background-image: url(./image/background.jpg);
+}
+
+.navsection{
+   display: flex;
+   justify-content: right;
+}
+
+.mail a{
+    text-decoration: none;
+    font-size: 25px;
+    padding: 60px;
+    color: white;
+    
+}
+
+.mail :hover{ 
+    color: rgb(105, 230, 105);
+
+}
+
+
+    
+.sign a{
+    text-decoration: none;
+    color: white;
+    background-color: blue;
+    font-size: 20px;
+    padding: 5px;
+    border-radius: 10px;
+    
+    
+}
+
+.sign :hover{
+   background-color: rgb(105, 230, 105) ; 
+   color:black;
+}
+
+
+.enginename{
+    display: flex;
+    justify-content: center;
+    
+}
+
+.enginename h1{
+    font-size: 100px;
+    color: white;
+}
+
+.enginename i{
+    font-size: 70px;
+    color: gold;
+}
+
+
+
+
+.searchsection{
+    display: flex;
+    justify-content: center;
+
+}
+
+.searchinput input{
+    width: 600px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    font-size: 20px;
+    
+}
+
+.searchinput  :hover{
+    border: 2px solid rgb(105, 230, 105);
+}
+
+.submit{
+    display: flex;
+    justify-content: center;
+}
+
+
+.submit a{
+   
+    margin-top: 20px;
+    color: white;
+    background-color:red;
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    
+}
+
+.submit :hover{
+    background-color: rgb(105, 230, 105);
+    color: black;
+}
+
+
+
